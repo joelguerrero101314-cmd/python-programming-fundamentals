@@ -1,7 +1,9 @@
 def main():
+    #Bienvenida
     
+    print("Bienvenido/a")
     #Pregunta al usuario
-    number = int(input("¡Hola! Ingresa un número: "))
+    number = int(input("Ingresa un número: "))
     
     #Opciones
     if number > 0:
