@@ -18,13 +18,16 @@ def main():
         
      #Condiciones
     if option == 1:
-        sum = number1 + number2
+        sum_numbers = number1 + number2
+        print(number1, "+", number2, "=", sum_numbers)
     
     elif option == 2:
-        substract == number1 - number2
+        substract = number1 - number2
+        print(number1, "-", number2, "=", substract)
         
     elif option == 3:
-        multiply == number1 * number2
+        multiply = number1 * number2
+        print(number1, "*", number2, "=", multiply)
     
     elif option == 4:
         
@@ -32,9 +35,10 @@ def main():
             print("No se puede dividir entre 0.")
             
         else:
-            divide == number1 / number2
+            divide = number1 / number2
+            print(number1, "/", number2, "=", divide)
             
     else:
         print("Ingresa una opción válida.")
-            
+
 main()
