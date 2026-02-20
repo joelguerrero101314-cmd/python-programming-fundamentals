@@ -20,4 +20,21 @@ def main():
     if option == 1:
         sum = number1 + number2
     
+    elif option == 2:
+        substract == number1 - number2
+        
+    elif option == 3:
+        multiply == number1 * number2
+    
+    elif option == 4:
+        
+        if number2 == 0:
+            print("No se puede dividir entre 0.")
+            
+        else:
+            divide == number1 / number2
+            
+    else:
+        print("Ingresa una opción válida.")
+            
 main()
