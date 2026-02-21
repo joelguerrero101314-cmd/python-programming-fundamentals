@@ -9,5 +9,3 @@ def generate_multiplication_table()-> None:
         print(f" {number} x {i} = {result_multiplication} ")
 
 generate_multiplication_table()
-
-
