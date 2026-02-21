@@ -4,18 +4,18 @@ def main():
     username = input("Ingrese su usuario: ")
     print("Hola", username)
 
-    # Contraseña
+    # Contraseña correcta
     password = "itse1234"
+    validation = ""
 
     # Validación
-    validation = input("Ingrese la contraseña: ")
+    while validation != password:
+        validation = input("Ingrese la contraseña: ")
 
-    # Casos
-    if validation == password:
-        print("Acceso autorizado")
-
-    else:
-        print("Contraseña incorrecta. Intente nuevamente")
+        if validation == password:
+            print("Acceso autorizado")
+        else:
+            print("Contraseña incorrecta. Intente nuevamente")
 
 
 main()
