@@ -1,17 +1,17 @@
-def classify_number() -> None:
+def check_age_status() -> None:
 
-    user_input: int = int(input("Agrega un numero: ")) 
+    age_input: str = input("Coloca tu edad: ").strip()
 
-    if user_input > 0:
-
-        print("The number is positive.")
-
-    elif user_input < 0:
-
-        print("The number is negative.")
-
-    else:
+    while not age_input.isdigit():
         
-        print("The number is zero.")
+        age_input = input("Por favor, introduce un número válido: ").strip()
 
-classify_number()
+    age: int = int(age_input)
+
+    if age >= 18:
+        print("Eres mayor de edad. ")
+    else:
+        print("Eres menor de edad.")
+
+
+check_age_status()
