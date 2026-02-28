@@ -26,6 +26,12 @@ def main():
           number2 = int(input("Ingresa el segundo número: "))
           substract_numbers = number1 - number2
           print(f"La resta es {substract_numbers}")
+        
+        case 3:
+          number1 = int(input("Ingresa el primer número: "))
+          number2 = int(input("Ingresa el segundo número: "))
+          multiply_numbers = number1 * number2
+          print(f"La multiplicación es {multiply_numbers}")
       
         case 4:
           print("Programa terminado.")
