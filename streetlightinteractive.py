@@ -1,4 +1,8 @@
-# Practicando codigos que me llaman la atencion parte #1
+import sys
+
+
+def print_python_version():
+    print(sys.version)# Practicando codigos que me llaman la atencion parte #1
 
 # Practicando codigos que me llaman la atencion parte #1
 sewer_style = """
@@ -17,3 +21,4 @@ sewer_style = """
 }
 
 """
+print(sewer_style)
